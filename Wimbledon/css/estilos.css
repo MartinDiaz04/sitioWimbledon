@@ -1,0 +1,116 @@
+@font-face {
+    font-family: Roza;
+    src: url(../fonts/Roza.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto.ttf);
+}
+:root{
+    --verde: #04743b;
+    --violeta: #4c2484;
+}
+
+h1, h2, h3, h4, h5, h6, label{
+    font-family: Roza;
+}
+p, a{
+    font-family: Roboto;
+}
+
+
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 2rem;
+}
+div header nav{
+    background-color: white;
+}
+div header nav ul li a{
+    color: var(--violeta);
+    letter-spacing: 1px;
+}
+div header nav ul li a:hover{
+    background-color: var(--verde);
+    color: white;
+}
+
+
+div header{
+    background-image: url(../img/cabezal.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+    height: 200px;
+}
+
+
+main section h1{
+    color: var(--violeta);
+}
+main section h1 span{
+    color: white;
+    background-color: var(--violeta);
+}
+
+main section:nth-of-type(2){
+    background-color: var(--verde);
+}
+
+main section:nth-of-type(2) h2, p{
+    color: white;
+}
+main section:nth-of-type(3) h2{
+    color: white;
+    background-color: var(--verde);
+}
+
+main section:nth-of-type(3) article figure img{
+    border-radius: 50%;
+}
+main section:nth-of-type(3) article p{
+    color: black;
+}
+main section:nth-of-type(3) article a{
+    color: white;
+    background-color: var(--violeta);
+}
+
+main section:nth-of-type(4){
+    background-color: var(--violeta);
+}
+
+main section:nth-of-type(4) h2, main section:nth-of-type(5) h2{
+    color: white;
+    background-color: var(--verde);
+}
+
+main section:nth-of-type(4) form input{
+    border: 1px solid var(--verde);
+}
+main section:nth-of-type(4) form input[type="submit"]{
+    color: white;
+    background-color: var(--verde);
+}
+
+main section:nth-of-type(5) p{
+    color: black;
+}
+
+label{
+    font-size: 50px;
+}
+
+div footer{
+    background-color: var(--violeta);
+}
+
+
+div div p{
+    color: black;
+}

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Plantilla inicio - Bootstrap v5.3.0 beta</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+
+    <!--Primero el móvil, no tender a hacer zoom, sino levantar a escala natural siempre y cuando haya
+       sido pensado como un sitio responsive, y anular el comportamiento de ajustar a los límites del dispositivo
+       el contenido, cuando este sobresalga-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <!--Bootstrap CSS-->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <!--CSS Propio-->
+    <link href="css/estilos.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <header class="row justify-content-center align-items-center p-3">
+            <figure class="col-5 col-md-2 text-center p-3 m-1">
+                <img src="img/logo.png" alt="" class="img-fluid w-50">
+            </figure>
+            <nav class="col-xs-10 col-lg-6 text-center">
+                <ul class="list-inline text-center m-0 p-2">
+                    <li class="list-inline-item">
+                        <a href="#" class="text-decoration-none text-uppercase p-2">noticia del dia</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="text-decoration-none text-uppercase p-2">jugadores</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="text-decoration-none text-uppercase p-2">rankings</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <main class="container-fluid">
+        <section class="row justify-content-center align-items-center p-4">
+            <h1 class="col-12 text-center py-2">Comenzo un <span>nuevo torneo</span>!</h1>
+            <figure class="col-8 col-md-4 col-lg-10 text-center">  
+                <img src="img/court.jpg" alt="" class="img-fluid w-100">
+            </figure>
+            <p class="col-8 col-md-5 col-lg-10 text-center">Las gradas est‡n colmadas y con muchas ganas que comiencen los partidos, para ver quien ser‡ el gran ganador de esta edici—n, que se disputa en la ciudad de Londres.</p>
+        </section>
+
+        <section class="row justify-content-center align-items-center">
+            <h2 class="text-center py-3 col-10">Noticias Del Dia</h2>
+            <figure class="d-none d-md-block col-md-5 text-center">
+                <img src="img/cuadros.jpg" alt="" class="img-fluid">
+            </figure>
+            <p class="col-lg-5 text-center">La organizaci—n de Wimbledon 2023 sorte— este domingo el cuadro clasificatorio masculino, y el tenista colombiano Nicol‡s Mej’a qued— a tres bajas de jugarlo, por lo cual no habr‡ presencia nacional en la fase previa del tercer Grand Slam, recordando que, en damas, lo jugar‡ Emiliana Arango, siendo su sorteo este lunes 26 de junio.</p>
+        </section>
+        
+
+        <section class="row justify-content-center align-items-center p-4">
+            <h2 class="col-12 text-center">Jugadores</h2>
+            <article class="col-5 col-md-4 col-lg-2 text-center p-3">
+                <figure>
+                    <img src="img/j1.jpg" alt="" class="img-fluid">
+                </figure>
+                <h3 class="text-center">N. Djokovic</h3>
+                <p class="text-center">Serbia</p>
+                <a href="#" class="text-uppercase p-2 text-decoration-none">ficha</a>
+            </article>
+            <article class="col-5 col-md-4 col-lg-2 text-center p-3">
+                <figure>
+                    <img src="img/j2.jpg" alt="" class="img-fluid">
+                </figure>
+                <h3 class="text-center">C. Alcaraz</h3>
+                <p class="text-center">España</p>
+                <a href="#" class="text-uppercase p-2 text-decoration-none">ficha</a>
+            </article>
+            <article class="col-5 col-md-4 col-lg-2 text-center p-3">
+                <figure>
+                    <img src="img/j3.jpg" alt="" class="img-fluid">
+                </figure>
+                <h3 class="text-center">I. Swiatek</h3>
+                <p class="text-center">Polonia</p>
+                <a href="#" class="text-uppercase p-2 text-decoration-none">ficha</a>
+            </article>
+            <article class="col-5 col-md-4 col-lg-2 text-center p-3">
+                <figure>
+                    <img src="img/j4.jpg" alt="" class="img-fluid">
+                </figure>
+                <h3 class="text-center">O. Jabeur</h3>
+                <p class="text-center">Turquia</p>
+                <a href="#" class="text-uppercase p-2 text-decoration-none">ficha</a>
+            </article>
+            <article class="col-5 col-md-4 col-lg-2 text-center p-3">
+                <figure>
+                    <img src="img/j5.jpg" alt="" class="img-fluid">
+                </figure>
+                <h3 class="text-center">G. Pella</h3>
+                <p class="text-center">Argentina</p>
+                <a href="#" class="text-uppercase p-2 text-decoration-none">ficha</a>
+            </article>
+        </section>
+
+        <section class="row text-center justify-content-center align-items-center p-4">
+            <h2 class="d-none d-md-block col-md-12 text-center mt-2">Suscribite a nuestras novedades</h2>
+            <figure class="d-none d-md-block col-md-5 col-lg-4">
+                <img src="img/roger.jpg" alt="" class="img-fluid rounded">
+            </figure>
+            <form action="" class="d-none d-md-block col-md-5 col-lg-5">
+                <input type="text" placeholder="Nombre Completo" class="w-100 p-2 my-1">
+                <input type="submit" value="Quiero Novedades!" class="w-100 p-2 my-1">
+            </form>
+        </section>
+
+        <section class="row text-center justify-content-center align-items-center p-4">
+            <h2 class="col-12 text-center mt-2">Rankings</h2>
+            <p class="col-8 text-center">ÁActualizados al d’a de hoy, con todos los resultados al instante y generando contenido de calidad, sin perder de vista cada uno de los partidos.!</p>
+            <article class="col-11 col-md-5 text-center">
+                <h3 for="tabla">TOP 5 Masculino</h3>
+                <table class="table table-striped" id="tabla">
+                    <tr>
+                        <th>Pos</th>
+                        <th>Nombre</th>
+                        <th>Puntos</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>L. Perez</td>
+                        <td>988</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>L. Perez</td>
+                        <td>988</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>L. Perez</td>
+                        <td>988</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>L. Perez</td>
+                        <td>988</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>L. Perez</td>
+                        <td>988</td>
+                    </tr>
+                </table>
+            </article>
+            <article class="col-11 col-md-5 text-center">
+                <h3>TOP 5 Femenino</h3>
+                <table class="table table-striped" id="tabla">
+                    <tr>
+                        <th>Pos</th>
+                        <th>Nombre</th>
+                        <th>Puntos</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>L. Perez</td>
+                        <td>988</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>L. Perez</td>
+                        <td>988</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>L. Perez</td>
+                        <td>988</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>L. Perez</td>
+                        <td>988</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>L. Perez</td>
+                        <td>988</td>
+                    </tr>
+                </table>
+            </article>
+        </section>
+    </main>
+
+    <div class="container-fluid">
+        <footer class="row">
+            <p class="text-center col-lg-12 pt-3">Sitio realizado por Martin Diaz</p>
+        </footer>
+    </div>
+
+
+
+
+
+
+<!-- JavaScript -->
+<script src="js/bootstrap.bundle.js"></script>
+<!--<script src="js/bootstrap.js"></script>-->
+</body>
+
+</html>
